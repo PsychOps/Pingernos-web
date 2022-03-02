@@ -1,0 +1,40 @@
+@import "/styling/root.css";
+
+body {
+    background-color: var(--color-light);
+    color: var(--color-dark)
+}
+
+.body-gray {
+    background-color: var(--color-dark);
+    color: var(--color-light)
+}
+
+.button-blue {
+    background-color: var(--color-main);
+    color: var(--color-light);
+    margin-right: 10px;
+}
+
+.button-green {
+    background-color: var(--color-success);
+    color: var(--color-light);
+    margin-right: 10px;
+}
+
+.button-orange {
+    background-color: var(--color-warn);
+    color: var(--color-light);
+    margin-right: 10px;
+}
+
+.button-red {
+    background-color: var(--color-danger);
+    color: var(--color-light);
+    margin-right: 10px;
+}
+
+html>body>div.d-flex.flex-column.flex-shrink-0.p-3.text-white.bg-dark>hr {
+    color: var(--color-light) !important;
+    background-color: var(--color-light) !important;
+}
