@@ -40,66 +40,71 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <!-- Sidebar  -->
-        <nav id="sidebar">
-            <div class="sidebar-header">
-                <h2>PsychOps Studios</h2>
-            </div>
+<div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <h2>PsychOps Studios</h2>
+        </div>
 
-            <ul class="components">
-                <h3>Pingernos</h3>
-                <li>
-                    <a href="index.html"><i class="fa-solid fa-house-chimney"></i> Home</a>
-                </li>
-                <li>
-                    <a href="about.html"><i class="fa-solid fa-circle-info"></i> About</a>
-                </li>
-                <li>
-                    <a href="wiki.html"><i class="fa-solid fa-book"></i> Wiki</a>
-                </li>
-                <li>
-                    <a href="https://psychops.eu/privacy.php" target="_blank"><i class="fa-solid fa-gavel"></i> Privacy Policy</a>
-                </li>
-            </ul>
+        <ul class="components">
+            <h3>Pingernos</h3>
+            <li>
+                <a href="index.html"><i class="fa-solid fa-house-chimney"></i> Home</a>
+            </li>
+            <li>
+                <a href="about.html"><i class="fa-solid fa-circle-info"></i> About</a>
+            </li>
+            <li>
+                <a href="wiki.html"><i class="fa-solid fa-book"></i> Wiki</a>
+            </li>
+            <li>
+                <a href="https://psychops.eu/privacy.php" target="_blank"><i class="fa-solid fa-gavel"></i> Privacy Policy</a>
+            </li>
+        </ul>
 
-            <hr>
+        <hr>
 
-            <ul class="components">
-                <li>
-                    <a href="https://psychops.eu" target="_blank"><i class="fas fa-link"></i> PsychOps</a>
-                </li>
-                <li>
-                    <a href="https://aternos.org" target="_blank"><i class="fas fa-link"></i> Aternos</a>
-                </li>
-                <li>
+        <ul class="components">
+            <li>
+                <a href="https://psychops.eu" target="_blank"><i class="fas fa-link"></i> PsychOps</a>
+            </li>
+            <li>
+                <a href="https://aternos.org" target="_blank"><i class="fas fa-link"></i> Aternos</a>
+            </li>
+            <li>
                 <img src="assets/images/pingernos.png">
-            </ul>
+        </ul>
+    </nav>
+
+    <div id="content">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+
+                <button type="button" id="sidebarCollapse" class="btn">
+                    <i class="fas fa-align-left"></i>
+                    <span>Sidebar</span>
+                </button>
+            </div>
         </nav>
 
-        <div id="content">
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-
-                    <button type="button" id="sidebarCollapse" class="btn">
-                        <i class="fas fa-align-left"></i>
-                        <span>Sidebar</span>
-                    </button>
-                </div>
-            </nav>
-            <div class="container text-center main">
-            <img src="assets/images/pingernosblue.png" class="main-img">
-                <p class="main-txt">Pingernos is a Discord bot developed by <a href="https://psychops.eu">PsychOps Studios</a> in JavaScript with the intention of providing a good, public and open-source alternative to the private "Aternos Bot", part of the Aternos Discord. <strong>Not affiliated with Aternos GmbH</strong></p>
-                <div class="btns">
+        <div class="container text-center">
+            <h2 class="title">About Pingernos</h2>
+            <img src="assets/images/pingernos.png" class="title-img">
+            <p class="main-txt">Pingernos was developed as an alternative to the infamous Aternos bot on the <a href="https://discord.com/invite/44tjB3D" target="_blank">Aternos discord server</a>. Intended solely for Aternos servers and optimised to work with them better than any standard Minecraft status bot, and constantly being improved where necessary.
+            <br/>
+                Pingernos is a product developed by <a href="https://psychops.eu/" target="_blank"> and is not affiliated with Aternos or Aternos GmbH.
+            </p>
+            <div class="btns">
                 <a class="btn btn-success btn-lg invite" href="https://discord.com/oauth2/authorize?client_id=889197952994791434&permissions=274878286848&scope=bot" target="_blank">Invite</a>
                 <a class="btn btn-danger btn-lg support" href="https://discord.gg/Hh3W3y9VWK" target="_blank">Support</a>
                 <a class="btn btn-lg wiki" href="wiki.php">Wiki</a>
-                </div>
             </div>
         </div>
     </div>
-    <script src="assets/js/navbar.js"></script>
+</div>
+<script src="assets/js/navbar.js"></script>
 </body>
 
 </html>
