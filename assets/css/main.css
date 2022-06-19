@@ -47,16 +47,30 @@ p a:hover {
     font-size: 25px;
 }
 
-.btns {
+.btns, .btns-lg {
     margin-top: 100px;
 }
 
-.btns a {
+.btns a, .btns-lg a {
     margin-left: 50px;
     margin-right: 50px;
+}
+
+.btns-lg {
+    visibility: hidden;
 }
 
 .wiki {
     background-color: #2B87D3;
     color: white;
+}
+
+@media (min-width: 915px) {
+    .btns {
+        visibility: hidden;
+    }
+
+    .btns-lg {
+        visibility: visible;
+    }
 }
