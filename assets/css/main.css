@@ -68,31 +68,3 @@ p a:hover {
     background-color: #2B87D3;
     color: white;
 }
-
-@media (min-width: 915px) {
-    .btns {
-        visibility: hidden;
-    }
-
-    .btns-lg {
-        visibility: visible;
-    }
-
-    .btns-sm {
-        visibility: hidden;
-    }
-}
-
-@media (max-width: 600px) {
-    .btns {
-        visibility: hidden;
-    }
-
-    .btns-lg {
-        visibility: hidden;
-    }
-
-    .btns-sm {
-        visibility: visible;
-    }
-}
