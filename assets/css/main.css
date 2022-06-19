@@ -47,21 +47,12 @@ p a:hover {
     font-size: 25px;
 }
 
-.btns, .btns-lg, .btns-sm {
-    margin-top: 100px;
+.btns {
+    margin-top: 50px;
 }
 
-.btns a, .btns-lg a, .btns-sm a {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.btns-lg {
-    visibility: hidden;
-}
-
-.btns-sm {
-    visibility: hidden;
+.btns a {
+    margin-top: 25px;
 }
 
 .wiki {
