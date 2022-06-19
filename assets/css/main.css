@@ -47,16 +47,20 @@ p a:hover {
     font-size: 25px;
 }
 
-.btns, .btns-lg {
+.btns, .btns-lg, .btns-sm {
     margin-top: 100px;
 }
 
-.btns a, .btns-lg a {
+.btns a, .btns-lg a, .btns-sm a {
     margin-left: 50px;
     margin-right: 50px;
 }
 
 .btns-lg {
+    visibility: hidden;
+}
+
+.btns-sm {
     visibility: hidden;
 }
 
@@ -71,6 +75,24 @@ p a:hover {
     }
 
     .btns-lg {
+        visibility: visible;
+    }
+
+    .btns-sm {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 600px) {
+    .btns {
+        visibility: hidden;
+    }
+
+    .btns-lg {
+        visibility: hidden;
+    }
+
+    .btns-sm {
         visibility: visible;
     }
 }
